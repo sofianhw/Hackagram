@@ -49,7 +49,7 @@ public class AfterLogin extends Activity {
 	
 
 	public int uploadFile(String sourceFileUri) {
-        String upLoadServerUri = "http://10.0.2.2/upload_test/upload_media_test.php";
+        String upLoadServerUri = "http://10.0.2.2/upload_test/upload_media_test.php"; //replace with our own server IP address
         String fileName = sourceFileUri;
 
         HttpURLConnection conn = null;

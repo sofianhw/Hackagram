@@ -34,6 +34,20 @@
             <action android:name="android.intent.action.DEFAULT" />
         </intent-filter>
     </activity>
+    
+        <activity android:name=".ImageGridActivity" >
+ <!--Default Intent Filter-->
+        <intent-filter>
+            <action android:name="android.intent.action.DEFAULT" />
+        </intent-filter>
+    </activity>
+    
+        <activity android:name=".ImageGrid" >
+ <!--Default Intent Filter-->
+        <intent-filter>
+            <action android:name="android.intent.action.DEFAULT" />
+        </intent-filter>
+    </activity>
         
     </application>
 

@@ -15,18 +15,18 @@ public class ImageGrid extends BaseAdapter{
 	}
 	
 	public Integer mImageThumbs[] = {
-			R.drawable.pic_1,
-			R.drawable.pic_2,
-			R.drawable.pic_3,
-			R.drawable.pic_4,
-			R.drawable.pic_5,
-			R.drawable.pic_6,
-			R.drawable.pic_7,
-			R.drawable.pic_8,
-			R.drawable.pic_9,
-			R.drawable.pic_10,
-			R.drawable.pic_11,
-			R.drawable.pic_12, 
+			R.drawable.image1,
+			R.drawable.image2,
+			R.drawable.image3,
+			R.drawable.image4,
+			R.drawable.image5,
+			R.drawable.image6,
+			R.drawable.image7,
+			R.drawable.image8,
+			R.drawable.image9,
+			R.drawable.image10,
+			R.drawable.image11,
+			R.drawable.image12, 
 		};	//3 x 4 grid thumbs
 
 	@Override

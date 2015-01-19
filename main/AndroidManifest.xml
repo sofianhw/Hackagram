@@ -3,15 +3,17 @@
     package="com.hackagram"
     android:versionCode="1"
     android:versionName="1.0" >
-	<uses-feature android:name="android.hardware.camera"
-	    android:required="true"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="21" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    
 
     <application
         android:allowBackup="true"
@@ -27,28 +29,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".AfterLogin" >
- <!--Default Intent Filter-->
-        <intent-filter>
-            <action android:name="android.intent.action.DEFAULT" />
-        </intent-filter>
-    </activity>
-    
+
+            <!-- Default Intent Filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ImageGridActivity" >
- <!--Default Intent Filter-->
-        <intent-filter>
-            <action android:name="android.intent.action.DEFAULT" />
-        </intent-filter>
-    </activity>
-    
+
+            <!-- Default Intent Filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ImageGrid" >
- <!--Default Intent Filter-->
-        <intent-filter>
-            <action android:name="android.intent.action.DEFAULT" />
-        </intent-filter>
-    </activity>
-        
+
+            <!-- Default Intent Filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MakingItWork"
+            android:label="@string/title_activity_making_it_work" >
+        </activity>
     </application>
 
 </manifest>

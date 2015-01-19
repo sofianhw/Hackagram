@@ -48,7 +48,7 @@ public class AfterLogin extends Activity implements OnClickListener{
 		    super.onCreate(savedInstanceState);
 		    setContentView(R.layout.activity_main);
 
-		    nama = (EditText)findViewById(R.id.nama_barang);
+		  /*  nama = (EditText)findViewById(R.id.nama_barang);
 		    harga = (EditText)findViewById(R.id.harga_barang);
 		    kondisi = (EditText)findViewById(R.id.kondisi_barang);
 		    notelepon = (EditText)findViewById(R.id.no_telepon);
@@ -70,7 +70,7 @@ public class AfterLogin extends Activity implements OnClickListener{
 		    getMenuInflater().inflate(R.menu.menu, menu);
 		    return true;
 		}
-
+*/
 		@Override
 		public void onClick(View arg0) {
 
